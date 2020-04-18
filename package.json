@@ -1,0 +1,23 @@
+{
+  "name": "hapiserver",
+  "version": "1.0.0",
+  "description": "Hapi service for rpi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanVDub/hapi-pi-server.git"
+  },
+  "author": "Ethan Vander Wiel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanVDub/hapi-pi-server/issues"
+  },
+  "homepage": "https://github.com/EthanVDub/hapi-pi-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "pg": "^8.0.2"
+  }
+}
